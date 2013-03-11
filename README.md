@@ -27,6 +27,6 @@ Bugs/Problems
 
 Author
 -----
-[cavalie.ro]
+[cavalie.ro] with credits to Andreas Gohr ([dokuwiki.org]) for the base dokuwiki template.
 
 
