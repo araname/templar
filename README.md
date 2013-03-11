@@ -1,7 +1,7 @@
 Templar
 ======
 
-In short, Templar is a clean template for [Dokuwiki](http://dokuwiki.org), based on [Bootstrap](http://http://twitter.github.com/bootstrap). Take a look at [http://templar.cavalie.ro/wiki:syntax] to see what it looks like for all the wiki elements. 
+In short, Templar is a clean template for [Dokuwiki](http://dokuwiki.org), based on [Bootstrap](http://http://twitter.github.com/bootstrap). Take a look at http://templar.cavalie.ro/wiki:syntax to see what it looks like for all the wiki elements. 
 
 Features
 --------
@@ -17,16 +17,16 @@ Features
 Howto
 -----
 
-* Installation: [https://www.dokuwiki.org/template]
-* Customisation: [http://templar.cavalie.ro#customisation]
-* Working with LESS: [http://templar.cavalie.ro#css_with_less]
+* Installation: https://www.dokuwiki.org/template
+* Customisation: http://templar.cavalie.ro#customisation
+* Working with LESS: http://templar.cavalie.ro#css_with_less
 
 Bugs/Problems
 ----
-[http://templar.cavalie.ro/#bugs_enhancements_troubleshooting]
+http://templar.cavalie.ro/#bugs_enhancements_troubleshooting
 
 Author
 -----
-[cavalie.ro] with credits to Andreas Gohr ([dokuwiki.org]) for the base dokuwiki template.
+[cavalie.ro] (http://cavalie.ro) with credits to [Andreas Gohr](http://dokuwiki.org) for the base dokuwiki template.
 
 
