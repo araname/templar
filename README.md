@@ -17,7 +17,7 @@ Features
 Howto
 -----
 
-* Installation: https://www.dokuwiki.org/template
+* Installation: https://www.dokuwiki.org/template. Also see requirements at: http://templar.cavalie.ro/#installation.
 * Customisation: http://templar.cavalie.ro#customisation
 * Working with LESS: http://templar.cavalie.ro#css_with_less
 
