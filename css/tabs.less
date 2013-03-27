@@ -156,7 +156,7 @@ div.panel h2 {
 }
 
 #mediamanager__page .namespaces ul .selected {
-    background-color: __highlight__;
+    background-color: @btnBackgroundHighlight;
     font-weight: bold;
 }
 
@@ -176,7 +176,7 @@ div.panel h2 {
     padding: 0;
 }
 #mediamanager__page .panelHeader ul li {
-    color: __text__;
+    color: @textColor;
     float: left;
     line-height: 1;
     padding-left: 3px;
@@ -215,7 +215,7 @@ div.panel h2 {
 }
 
 #mediamanager__page .filelist .panelContent ul li:hover {
-    background-color: __background_alt__;
+    background-color: @btnBackground;
 }
 
 #mediamanager__page .filelist li dt a {
@@ -241,8 +241,8 @@ div.panel h2 {
     display: -moz-inline-stack;
     /* the right margin should visually be 10px, but because of its inline-block nature the whitespace inbetween is about 4px more */
     margin: 0 6px 10px 0;
-    background-color: __background_neu__;
-    color: __text__;
+    background-color: @btnBackgroundHighlight;
+    color: @textColor;
     padding: 5px;
     vertical-align: top;
     text-align: center;
@@ -297,13 +297,13 @@ div.panel h2 {
     max-height: 50px;
     margin: 0;
     margin-bottom: 3px;
-    background-color: __background__;
-    color: __text__;
+    background-color: @bodyBackground;
+    color: @textColor;
     overflow: hidden;
 }
 
 #mediamanager__page .filelist .rows li:nth-child(2n+1) {
-    background-color: __background_neu__;
+    background-color: @btnBackgroundHighlight;
 }
 
 #mediamanager__page .filelist .rows li dt {
@@ -382,11 +382,11 @@ div.panel h2 {
 #mediamanager__page .file dl dt {
     font-weight: bold;
     display: block;
-    background-color: __background_alt__;
+    background-color: @btnBackground;
 }
 #mediamanager__page .file dl dd {
     display: block;
-    background-color: __background_neu__;
+    background-color: @btnBackgroundHighlight;
 }
 
 
@@ -425,7 +425,7 @@ div.panel h2 {
 
 #mediamanager__page #page__revisions ul li div.li div {
     font-size: 90%;
-    color: __text_neu__;
+    color: @headingsColor;
     padding-left: 18px;
 }
 
@@ -448,7 +448,7 @@ div.panel h2 {
     padding: 0;
     vertical-align: top;
     text-align: left;
-    border-color: __background__;
+    border-color: @bodyBackground;
 }
 [dir=rtl] #mediamanager__diff td,
 [dir=rtl] #mediamanager__diff th {
@@ -457,7 +457,7 @@ div.panel h2 {
 
 #mediamanager__diff th {
     font-weight: normal;
-    background-color: __background__;
+    background-color: @bodyBackground;
     line-height: 1.2;
 }
 #mediamanager__diff th a {
@@ -468,8 +468,8 @@ div.panel h2 {
 }
 
 #mediamanager__diff dl dd strong{
-    background-color: __highlight__;
-    color: __text__;
+    background-color: @btnBackgroundHighlight;
+    color: @textColor;
     font-weight: normal;
 }
 
@@ -556,8 +556,8 @@ div.panel h2 {
     height: 100%;
     min-height: 70px;
     z-index: 2;
-    background: __background_neu__;
-    color: __text__;
+    background: @btnBackgroundHighlight;
+    color: @textColor;
     text-align: center;
 }
 
@@ -571,7 +571,7 @@ div.panel h2 {
 }
 
 .qq-upload-drop-area-active {
-    background: __background_alt__;
+    background: @btnBackground;
 }
 
 /* list of files to upload */
@@ -584,7 +584,7 @@ div.qq-uploader ul {
 
 .qq-uploader li {
     margin: 0 0 5px;
-    color: __text__;
+    color: @textColor;
 }
 
 .qq-uploader li span,
