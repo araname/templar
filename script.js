@@ -12,8 +12,7 @@
 /* KUWIKI:include_once js/bootstrap-tooltip.js */
 /* KUWIKI:include_once js/bootstrap-transition.js */
 /* KUWIKI:include_once js/bootstrap-typeahead.js */
-
 //Fix for .navbar-fixed-top when accessing anchors
 var shiftWindow = function() { scrollBy(0, -45) };
 if (location.hash) shiftWindow();
-window.addEventListener("hashchange", shiftWindow);
+jQuery(window).bind('popstate', shiftWindow);
